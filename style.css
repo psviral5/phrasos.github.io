@@ -11,6 +11,10 @@ body {
     font-size: 62.5%;
     font-size: 10px;
       align-items: center;
+      overflow-y: scroll;
+      background-size: cover;
+      height: 100%;
+      overflow-y: hidden;
 }
 
 .nav {
@@ -454,7 +458,7 @@ body{
 
 .hero-section{
   align-items: flex-start;
-  background-image: linear-gradient(15deg, #ffffff 0%, #ccdf36 150%);
+  background-image: linear-gradient(15deg, #00ff66 0%, #ccdf36 150%);
   display: flex;
 
   
@@ -505,7 +509,11 @@ body{
   left: 0;
   position: absolute;
   height: 100%; 
-overflow: hidden;
+  overflow-y: scroll;
+  background-size: cover;
+  height: 100%;
+  overflow-y: hidden;
+
   right: 0;
   top: 0;
   transform-origin: center;
