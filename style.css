@@ -537,8 +537,10 @@ body{
   left: 0;
   position: absolute;
   height: 100%; 
-
+  overflow-y: scroll;
+  overflow-y: hidden;
   right: 0;
+  
   top: 0;
   transform-origin: center;
   trsnsform: scale(1) translateZ(0);
