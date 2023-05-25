@@ -504,6 +504,8 @@ body{
   filter: brightness(0.75) saturate(1.2) contrast(0.85);
   left: 0;
   position: absolute;
+  height: 100%; 
+overflow: hidden;
   right: 0;
   top: 0;
   transform-origin: center;
