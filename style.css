@@ -523,6 +523,7 @@ body{
   left: 0;
   position: absolute;
   height: 100%; 
+  z-index: 5;
 overflow: hidden;
   right: 0;
   top: 0;
