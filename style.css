@@ -544,8 +544,8 @@ overflow: hidden;
 }
 
 .card__content{
-  left: 0;
-  padding: var(--spacing-l);
+  /* left: 0; */
+  padding: var(--spacing-m);
   position: absolute;
   top: 0;
 }
