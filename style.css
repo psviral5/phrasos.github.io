@@ -496,8 +496,6 @@ body{
   }
 }
 
-
-
 @media(min-width: 960px){
   .card-grid{
     grid-template-columns: repeat(4, 1fr); 
@@ -525,7 +523,7 @@ body{
   filter: brightness(0.75) saturate(1.2) contrast(0.85);
   left: 0;
   position: absolute;
-  height: 235px; 
+  height: 12rem; 
 
 overflow: hidden;
   right: 0;
@@ -537,6 +535,12 @@ overflow: hidden;
     transform 200ms linear;
 }
 
+.area{
+  height: 12.5rem;
+  left: 0;
+  bottom: 0;
+}
+
 .card:hover .card__background{
   transform: scale(1.05) translateZ(0);
 }
@@ -546,8 +550,8 @@ overflow: hidden;
 }
 
 .card__content{
-  /* left: 0; */
-  padding: var(--spacing-m);
+  left: 0;
+  padding: var(--spacing-l);
   position: absolute;
   top: 0;
 }
@@ -557,12 +561,12 @@ overflow: hidden;
  font-size: 110%;;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;
-  margin-top: 10%;
+  margin-top: 2em;
 }
 
 .card__heading{
   color: var(--text-lighter);
-  font-size: 1.9rem;
+  font-size: 20px;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   line-height: 1.4;
   word-spacing: 100vw;
@@ -615,10 +619,14 @@ overflow: hidden;
     flex-wrap: wrap;
     justify-content: center;
     transform: scale(0.67);
-    margin-top: -10rem;
+    margin-top: -10em;
 }
 
-} 
+}
+
+
+  
+
 
   .contentcardsful{
 
@@ -636,24 +644,19 @@ overflow: hidden;
   }
   .contentcards{
   
-/*   
-      width: 150%; */
-      /* margin: 0;
-      padding: 0; */
+  
+      width: 150%;
+      margin: 0;
+      padding: 0;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       -webkit-justify-content: center;
-      align-items: center;
      
   }
-
-
   
   
-.area{
-  height: 240px;
-}
+
 
 .container1 {
 /*   
@@ -752,6 +755,20 @@ font-family: 'League Spartan', sans-serif;
 
 
 
+ .contentcardsful{
+
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+justify-content: center; 
+  align-items: center;
+
+ 
+
+
+ 
+}
 
 .heading2
 
@@ -876,7 +893,7 @@ border-bottom-right-radius: 12px;
     font-size: 15px;
     letter-spacing: 2px;
     font-weight: 500;
-  color: #000000;
+  color: #868686;
   
 }
 
