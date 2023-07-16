@@ -496,6 +496,8 @@ body{
   }
 }
 
+
+
 @media(min-width: 960px){
   .card-grid{
     grid-template-columns: repeat(4, 1fr); 
@@ -613,14 +615,10 @@ overflow: hidden;
     flex-wrap: wrap;
     justify-content: center;
     transform: scale(0.67);
-    margin-top: -10em;
+    margin-top: -10rem;
 }
 
-}
-
-
-  
-
+} 
 
   .contentcardsful{
 
@@ -638,16 +636,19 @@ overflow: hidden;
   }
   .contentcards{
   
-  
-      width: 150%;
-      margin: 0;
-      padding: 0;
+/*   
+      width: 150%; */
+      /* margin: 0;
+      padding: 0; */
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       -webkit-justify-content: center;
+      align-items: center;
      
   }
+
+
   
   
 .area{
@@ -751,20 +752,6 @@ font-family: 'League Spartan', sans-serif;
 
 
 
- .contentcardsful{
-
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
-justify-content: center; 
-  align-items: center;
-
- 
-
-
- 
-}
 
 .heading2
 
