@@ -151,7 +151,7 @@ h3{
     .card{
 
       margin-top: -1em;
-      height: 22em;
+      height: 240px;
     }
 
     h1{
@@ -505,6 +505,7 @@ body{
 .card{
   list-style: none;
   position: relative;
+   height: 240px;
 }
 
 .card:before{
@@ -517,13 +518,13 @@ body{
 .card__background{
   background-size: cover;
   background-position: center;
-  border-radius: var(--spacing-l);
+  border-radius: var(--spacing-s);
   bottom: 0;
   filter: brightness(0.75) saturate(1.2) contrast(0.85);
   left: 0;
   position: absolute;
-  height: 100%; 
-  z-index: 5;
+  height: 235px; 
+
 overflow: hidden;
   right: 0;
   top: 0;
