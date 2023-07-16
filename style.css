@@ -552,10 +552,10 @@ overflow: hidden;
 
 .card__category{
   color: var(--text-light);
-  font-size: 0.9rem;
+ font-size: 110%;;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;
-  margin-top: 2em;
+  margin-top: 10%;
 }
 
 .card__heading{
@@ -889,7 +889,7 @@ border-bottom-right-radius: 12px;
     font-size: 15px;
     letter-spacing: 2px;
     font-weight: 500;
-  color: #868686;
+  color: #000000;
   
 }
 
