@@ -490,7 +490,7 @@ body{
 
 
 
-.card {
+/* .card {
   list-style: none;
   position: relative;
    height: 240px;
@@ -504,7 +504,8 @@ body{
   display: block;
   padding-bottom: 150%;
   width: 100%;
-}
+} */
+
 
 .card__background  {
   background-size: cover;
@@ -517,15 +518,19 @@ body{
   height: 12rem; 
   width: 100%;
 
-overflow: hidden;
-  right: 0;
-  top: 0;
-  transform-origin: center;
-  trsnsform: scale(1) translateZ(0);
-  transition: 
-    filter 200ms linear,
-    transform 200ms linear;
 }
+
+
+/* .card__background:hover{
+
+  transition: 0.2s all ease-out;
+  transform: scale(1.5);
+  width: 100%;
+
+
+
+} */
+
 
 .area{
   height: 12.5rem;
