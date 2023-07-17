@@ -490,11 +490,14 @@ body{
 
 
 
-.card{
+.card {
   list-style: none;
   position: relative;
    height: 240px;
+ 
 }
+
+
 
 .card:before{
   content: '';
@@ -503,15 +506,16 @@ body{
   width: 100%;
 }
 
-.card__background{
+.card__background  {
   background-size: cover;
   background-position: center;
   border-radius: var(--spacing-s);
   bottom: 0;
   filter: brightness(0.75) saturate(1.2) contrast(0.85);
   left: 0;
-  position: absolute;
+  position:relative;
   height: 12rem; 
+  width: 100%;
 
 overflow: hidden;
   right: 0;
@@ -538,10 +542,13 @@ overflow: hidden;
 }
 
 .card__content{
-  left: 0;
-  padding: var(--spacing-l);
+ 
+  z-index: 1;
+  margin-top: 3em;
+  margin-left: 3em;
   position: absolute;
-  top: 0;
+  color: aliceblue;
+
 }
 
 .card__category{
@@ -685,7 +692,7 @@ margin-left: 35em;
 
 
 .name {
-  color: #2eee0c;
+  color: #ee0c0c;
   font-size: 36px;
   font-weight: 600;
 margin-top: -12em;
@@ -907,7 +914,7 @@ border-bottom-right-radius: 12px;
 .credit{
   z-index: 1;
   margin-top: 1em;
-  margin-left: 8em;
+  margin-left: 3em;
   position: absolute;
   color: aliceblue;
 }
