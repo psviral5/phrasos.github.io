@@ -2,4 +2,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://psviral.github.io/phrasos.github.io/sitemap.xml
+Sitemap: http://phrasos.com/sitemap.xml
