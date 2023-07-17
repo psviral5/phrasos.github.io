@@ -88,18 +88,18 @@ h3{
 
 
 
-/* .navTrigger {
+ .navTrigger {
     display: none;
 
    -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-}  */
+}  
 
 
 
  .navTrigger {
   cursor: pointer;
-margin-top: 6%;
+margin-top: 2.2EM;
 margin-right: 5%;
   width: 30px;
   /* height: 25px;  */
