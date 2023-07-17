@@ -740,6 +740,9 @@ justify-content: center;
 
 
 }
+
+
+
 .contentcards{
 
 
@@ -755,18 +758,22 @@ justify-content: center;
 
 .contentcard--1 .contentcard__img, .contentcard--1 .contentcard__img--hover {
     background-image: url('images/pexels-anush-gorak-1229356.jpg');
+    image-resolution: from-image 300dpi;
 }
 
 .contentcard--2 .contentcard__img, .contentcard--2 .contentcard__img--hover {
     background-image: url('images/pexels-pramod-tiwari-13288521.jpg');
+    image-resolution: from-image 100dpi;
 }
 
 .contentcard--3 .contentcard__img, .contentcard--3 .contentcard__img--hover {
   background-image: url('images/pexels-roman-odintsov-5836182.jpg');
+  image-resolution: from-image 700dpi;
 }
 
 .contentcard--4 .contentcard__img, .contentcard--4 .contentcard__img--hover {
   background-image: url('images/pexels-tirachard-kumtanom-574282.jpg');
+  image-resolution: from-image 500dpi;
 }
 .contentcard__like {
     width: 18px;
