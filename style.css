@@ -685,7 +685,7 @@ margin-left: 35em;
 
 
 .name {
-  color: #404245;
+  color: #2eee0c;
   font-size: 36px;
   font-weight: 600;
 margin-top: -12em;
@@ -695,7 +695,7 @@ font-family: 'League Spartan', sans-serif;
 
 }
 .title {
-  color: #e80d0d;
+  color: #e40de8;
   font-family: arial;
   font-size: 16px;
   font-style: italic;
@@ -877,7 +877,7 @@ border-bottom-right-radius: 12px;
 .contentcard__author {
     font-weight: 600;
     text-decoration: none;
-    color: #AD7D52;
+    color: #2b0ea3;
 }
 
 .contentcard:hover .contentcard__img--hover {
@@ -916,7 +916,6 @@ border-bottom-right-radius: 12px;
 
 
 
-}
 
 
 .text {
