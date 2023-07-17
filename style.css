@@ -50,14 +50,14 @@ h3{
     z-index: 5;
 }
 
-.nav div.logo {
+/* .nav div.logo {
     float: left;
     width: auto;
     height: auto;
     margin-left: 5REM;
-    /* padding-left: 3rem; */
+    /*\adding-left: 3rem; 
    
-}
+} */
 
 .nav div.logo a {
     text-decoration: none;
@@ -115,16 +115,24 @@ h3{
   transition: all 0.4s ease;
 }  
 
-
-
  .navTrigger {
   cursor: pointer;
-margin-top: 1.5rEM;
-margin-right: 5%;
+  padding-top: 20px;
+    padding-bottom: 20px;
   width: 30px;
-  /* height: 25px;  */
- }
+  height: 25px;  
+  margin-right: 1REM;
+ } 
 
+
+  .nav div.logo {
+    float: left;
+    
+    margin-left: 1REM;
+  
+   
+} 
+ 
 
 
 .nav {
@@ -630,7 +638,7 @@ body{
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center;
- 
+  height: 40px; 
 
 
 
@@ -645,11 +653,12 @@ body{
   .about {
     align-items: center;
     background-color: #ffffff;
-    display: flex; 
+    display: flex;
+    height: 40px; 
     flex-wrap: wrap;
     justify-content: center;
     transform: scale(0.67);
-    margin-top: -10em;
+    /* margin-top: -10em; */
 }
 
 } 
@@ -730,23 +739,25 @@ margin-left: 30em;
   color: #000000;
   font-size: 36px;
   font-weight: 600;
-margin-top: -13em;
+ margin-top: 9em; 
 font-family: 'League Spartan', sans-serif;
   text-align: center;
-  margin-left: 3.5REM;
+   margin-left: -2rEM; 
+margin-bottom:-2rem;
 
 
-}
-.title {
+} 
+ .title {
   color: #000000;
   font-family: arial;
-  margin-top: -14em;
+  text-align: center;
+  margin-top: -9em;
   font-size: 26px;
   font-style: BOLD;
-  margin-left: -14.5Rem;
+  margin-left: -1Rem;
   font-family: 'League Spartan', sans-serif;
 
-}
+} 
 
 
 
@@ -764,6 +775,22 @@ font-family: 'League Spartan', sans-serif;
   -webkit-align-items: center;
 justify-content: center; 
   align-items: center;
+ 
+ 
+
+
+ 
+}
+
+.contentcardsful ul{
+
+
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+justify-content: center; 
+  align-items: center;
+  font-size: 20px;
 
  
 
@@ -789,7 +816,7 @@ justify-content: center;
 
 .contentcards{
 
-
+  font-size: 50px;
     width: 150%;
     margin: 0;
     padding: 0;
@@ -819,25 +846,7 @@ justify-content: center;
   background-image: url('images/pexels-tirachard-kumtanom-574282.png');
   image-resolution: from-image 500dpi;
 }
-.contentcard__like {
-    width: 18px;
-}
 
-.contentcard__clock {
-    width: 15px;
-  vertical-align: middle;
-    fill: #AD7D52;
-}
-.contentcard__time {
-    font-size: 12px;
-    color: #AD7D52;
-    vertical-align: middle;
-    margin-left: 5px;
-}
-
-.contentcard__clock-info {
-    float: right;
-}
 
 .contentcard__img {
   visibility: hidden;
@@ -967,7 +976,7 @@ border-bottom-right-radius: 12px;
 
     font-size: 30px;
     line-height: 1.9;
-    margin-left: 1.5em;
+   margin-left:0.5em;
 }
 
 
