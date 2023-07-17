@@ -35,17 +35,19 @@ h3{
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
+   
 }
 
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
     font-size: 2.5rem;
+ 
 }
 
 .nav div.logo a:hover {
-    color: black;
+    color: black; 
 }
 
 .nav div.main_list {
@@ -88,7 +90,26 @@ h3{
 
 .navTrigger {
     display: none;
+   margin-top: -70px;  
+  padding-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
+
+.navTrigger {
+  cursor: pointer;
+  float:right;
+  width: 30px;
+  /* height: 25px; */
+/* 
+  position: absolute; */
+  /* right: 30px; */
+  /* top: 0;
+  bottom: 0; */
+}
+
 
 .nav {
     padding-top: 20px;
@@ -175,16 +196,7 @@ li{
 /* Animation */
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
-.navTrigger {
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    margin: auto;
-    position: absolute;
-    right: 30px;
-    top: 0;
-    bottom: 0;
-}
+
 
 .navTrigger i {
     background-color: #fff;
@@ -193,6 +205,7 @@ li{
     display: block;
     width: 100%;
     height: 4px;
+  
 }
 
 .navTrigger i:nth-child(1) {
@@ -384,11 +397,7 @@ li{
 	padding-right:15%;
 	font-size: 20px;
 }
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
-}
+
 
 
 
@@ -409,18 +418,7 @@ margin-top: 2em;
 
 }
 
-@media(max-width: 540px){
- 
-  .text{
-margin-top: 2em;
-    font-size: 15px;
-    display: flex; 
-    flex-wrap: wrap;
-   
-    
-    }
 
-}
 
 
 
@@ -473,11 +471,9 @@ body{
 .hero-section{
   align-items: flex-start;
   background-image: linear-gradient(15deg, #00fff2 0%, #ccdf36 150%);
-  display: flex;
-
-  
+  display: flex; 
   justify-content: center;
-  padding: var(--spacing-s) var(--spacing-m);
+  padding: var(--spacing-s) var(--spacing-s);
 }
 
 .card-grid{
@@ -490,17 +486,9 @@ body{
   width: 100%;
 }
 
-@media(min-width: 540px){
-  .card-grid{
-    grid-template-columns: repeat(2, 1fr); 
-  }
-}
 
-@media(min-width: 960px){
-  .card-grid{
-    grid-template-columns: repeat(4, 1fr); 
-  }
-}
+
+
 
 .card{
   list-style: none;
@@ -622,38 +610,7 @@ overflow: hidden;
     margin-top: -10em;
 }
 
-}
-
-
-  
-
-
-  .contentcardsful{
-
-    display: flex; 
-    flex-wrap: wrap;
-    -webkit-justify-content: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   
-  
-  
-   
-  }
-  .contentcards{
-  
-  
-      width: 150%;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      -webkit-justify-content: center;
-     
-  }
+} 
   
   
 
@@ -950,15 +907,7 @@ border-bottom-right-radius: 12px;
 
 
 
-@media (max-width: 567px){
 
-
- .text ul {
-    font-size: 20px;
-  margin-left: -40px;
-  line-height: 1.3;
-  
-}
 
 }
 
