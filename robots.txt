@@ -1,4 +1,7 @@
-
+User-agent: Googlebot
+Disallow: /nogooglebot/
 
 User-agent: *
-Disallow: /projectname/
+Allow: /
+
+Sitemap: https://www.phrasos.com/sitemap.xml
