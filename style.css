@@ -438,14 +438,20 @@ li{
 font-size: 25px;
 display: flex; 
 flex-wrap: wrap;
-padding-left: 2em;
-padding-right: 1em;
-margin-top: 2em;
+padding-left: 7rem;
+padding-right: 13rem;
+margin-top: 2rem;
 
 
 }
 
 
+.text {
+  list-style-type:decimal; 
+  font-size: 30px;
+  line-height: 1.9;
+ margin-left:0.5em;
+}
 
 
 
@@ -977,13 +983,3 @@ border-bottom-right-radius: 12px;
 
 
 
-.text {
-    list-style-type:decimal;
-
-    font-size: 30px;
-    line-height: 1.9;
-   margin-left:0.5em;
-}
-
-
- 
