@@ -4,15 +4,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-<loc>https://www.phrasos.com/</loc>
+<loc>https://www.phrasos.com</loc>
 <lastmod>2023-07-17T08:53:41+00:00</lastmod>
 <priority>1.00</priority>
 </url>
-<url>
-<loc>https://www.phrasos.com/</loc>
-<lastmod>2023-07-17T08:53:41+00:00</lastmod>
-<priority>1.00</priority>
-</url>
+
 <url>
 <loc>https://www.phrasos.com/index.html</loc>
 <lastmod>2023-07-17T08:53:41+00:00</lastmod>
