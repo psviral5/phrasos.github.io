@@ -1,1 +1,235 @@
-phrasos.com
+Quotes are short, concise, and memorable statements that encapsulate wisdom, insight, or a particular perspective on a given subject. They are typically attributed to a specific individual who first uttered or wrote them, often someone renowned for their intellect, creativity, or influence. Quotes have been an integral part of human communication for centuries and have played a significant role in shaping cultures, inspiring individuals, and expressing complex emotions or ideas succinctly.
+
+
+**Motivation:** Motivational quotes have the power to inspire individuals to take action, overcome challenges, and achieve their goals. They serve as a source of encouragement during times of self-doubt and can fuel the drive to persevere in the face of adversity. A famous motivational quote by Tony Robbins goes, "The only limit to your impact is your imagination and commitment."
+
+**Love:** Love quotes capture the essence of one of the most profound emotions known to humanity. They express the complexities of love, the joy it brings, and the pain it may entail. A beautiful love quote by Maya Angelou reads, "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."
+
+**Inspiration:** Inspirational quotes have the ability to uplift spirits and encourage individuals to embrace their uniqueness and potential. They remind us to be true to ourselves and to pursue our passions fearlessly. One such inspirational quote by Ralph Waldo Emerson says, "Do not go where the path may lead, go instead where there is no path and leave a trail."
+
+**Self-Help:** Self-help quotes offer guidance and introspection, promoting personal growth and self-awareness. They encourage individuals to focus on their well-being and to cultivate positive habits. A self-help quote from Eleanor Roosevelt states, "The future belongs to those who believe in the beauty of their dreams."
+
+**Instagram Bio:** With the popularity of social media platforms like Instagram, people often use quotes in their bios to express their personality, beliefs, and aspirations. These quotes can be humorous, philosophical, or reflective. For an Instagram bio, a catchy and witty quote by Oscar Wilde might be used: "Be yourself; everyone else is already taken."
+
+Using quotes in these contexts can add depth and meaning to various aspects of life. They remind us of our common humanity and shared experiences, connecting us with the thoughts and insights of others who have traversed similar paths. Whether seeking motivation, expressing love, seeking inspiration, pursuing self-improvement, or crafting an intriguing Instagram bio, quotes have the capacity to make a significant impact on how we perceive the world and ourselves.
+
+
+
+
+
+
+
+
+
+  <div class="card__content">
+
+
+    <h1 class="card__heading">
+      INSTAGRAM-BIOS</h1>
+  </div>
+
+
+
+
+
+
+
+  <div class="card__background">
+  </div>
+
+  <div id="Frases_para_Instagram_de_Gimnasio"></div>
+
+  <div class="card__content">
+
+  <h1 class="card__heading">
+
+
+    <!--<ul>
+  <li>Now that's a flex</li>
+  <li>Never miss a Monday</li>
+  <li>Nothing but gains here</li>
+  <li>Motivation is what gets you started. Habit is what keeps you going</li>
+  <li>The only thing stopping you is you</li>
+  <li>Burns so good</li>
+  <li>Do I have abs yet?</li>
+  <li>Sweat now, shine later</li>
+  <li>Progress, not perfection</li>
+  <li>A little progress each day adds up to big results</li>
+  <li>It starts with you</li>
+  <li>Lift heavy and love hard</li>
+  <li>Train like a beast, look like a beauty</li>
+  <li>Eat. Gym. Repeat.</li>
+  <li>Good things come to those who sweat</li>
+  <li>Rise & Grind</li>
+  <li>Gym is my therapy</li>
+  <li>Results do not come overnight</li>
+  <li>Weights before dates</li>
+</ul>"
+ -->
+
+    <ul>
+      <li>¡Eso sí que es un logro!</li>
+      <li>Nunca te pierdas un lunes</li>
+      <li>Aquí solo hay ganancias</li>
+      <li>
+        La motivación es lo que te pone en marcha. El hábito es lo que te
+        mantiene en movimiento
+      </li>
+      <li>La única cosa que te detiene eres tú</li>
+      <li>Quema tan bien</li>
+      <li>¿Ya tengo abdominales?</li>
+      <li>Suda ahora, brilla después</li>
+      <li>Progreso, no perfección</li>
+      <li>Un pequeño progreso cada día se suma a grandes resultados</li>
+      <li>Todo comienza contigo</li>
+      <li>Levanta pesado y ama intensamente</li>
+      <li>Entrena como una bestia, luce como una belleza</li>
+      <li>Come. Gimnasio. Repite.</li>
+      <li>Las cosas buenas llegan a quienes sudan</li>
+      <li>Levántate y trabaja duro</li>
+      <li>El gimnasio es mi terapia</li>
+      <li>Los resultados no llegan de la noche a la mañana</li>
+      <li>Las pesas antes que las citas</li>
+    </ul>
+  </h1>
+
+  </div>
+  <!-- <div class="text__background">
+  </div> -->
+  
+  <!-- </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .card__content {
+ /* text-align: center;
+  z-index: 1;
+  margin-top: 2rem;
+  transform: translate+(-50%, 0%);
+  left: 40%;
+  position: absolute;
+color  : aliceblue; */
+z-index: 2;
+margin-top: 2rem;
+  /* border: 5px solid; */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 1px;
+  color  : aliceblue;
+
+}
+.card__content__down {
+  margin-top: 2rem;
+  font-size: 25px;
+  /* display: flex; 
+  flex-wrap: wrap; */
+position: absolute;
+padding: 1px;
+
+  left: 50%;
+  transform: translate(-50%, 0%);
+ 
+  
+  
+  }
+
+  .text__background  {
+ 
+    border-radius: var(--spacing-s);
+   filter: brightness(0.75) saturate(1.2) contrast(0.85);
+     position:relative;
+   
+    
+    width: 100%;
+   
+  
+  }
+  
+  
+ 
+
+
+
+.card__background  {
+ 
+  border-radius: var(--spacing-s);
+ filter: brightness(0.75) saturate(1.2) contrast(0.85);
+   position:relative;
+  height: 6rem; 
+  width: 100%;
+  background-color: #111;
+
+}
+
+.card__background__down {
+ 
+  /* border-radius: var(--spacing-l); */
+ filter: brightness(0.75) saturate(1.2) contrast(0.85);
+   position:relative;
+  height: 100%; 
+  width: 100%;
+  
+ 
+
+}
+
+ul{
+  font-size: 15px;
+
+  
+
+}
+
+li {
+  padding: 1%;
+}
+
+.card__category{
+  color: var(--text-light);
+ font-size: 11px;;
+  /* margin-bottom: var(--spacing-s); */
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.card__heading{
+  color: var(--text-lighter);
+  font-size: 20px;
+  text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  line-height: 1.4;
+  word-spacing: 100vw;
+}
+
+.card__heading_down{
+
+  font-size: 50px;
+  text-shadow: 2px 2px 20px rgba(0,0,0,0.2); 
+  color: black;
+}
+
+.heading_text{
+  /* color: var(--text-lighter); */
+  font-size: 20px;
+  /* text-shadow: 2px 2px 20px rgba(0,0,0,0.2); */
+  color: black;
+  line-height: 1.4;
+  word-spacing: 100vw;
+}
