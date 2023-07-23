@@ -229,7 +229,7 @@ text-size-adjust: none;
 
 li{
 
-  list-style-type:decimal-leading-zero;
+  list-style-type:disc;
  
 
 }
@@ -459,7 +459,7 @@ font-size: 20px;
 .block {
   display: inline-block;
   text-align: left;
-width: 50%;
+
 
 }
 
@@ -535,7 +535,10 @@ body{
 }
 
 
+.heading2 li {
 
+  list-style: none;
+}
 
 
 /* .card {
@@ -673,7 +676,9 @@ body{
 @media(max-width: 604px){
 
 
-
+.text{
+  font-size: 15px; 
+}
   .about {
 
     align-items: center;
