@@ -440,29 +440,28 @@ p{
   
 
 
-.text ul {
+.text {
 
 
 margin-top: 20px; 
  text-align: center;
-font-size: 30px;
-width: 100%;
+font-size: 20px; 
   line-height: 1.9;
   padding: 25px;
   padding-top: -95px;
-list-style: none;
  margin-bottom: 0;
+
 }
 
 
 
-li{
 
-  font-size: 20px;
-  list-style: none;
+.block {
+  display: inline-block;
+  text-align: left;
+width: 50%;
+
 }
-
-
 
 
 
