@@ -15,3 +15,8 @@ RewriteRule ^(.*)$ https://phrasos.com [NC]
 
 RewriteCond %{HTTP_HOST} ^phrasos.com/$1 [L,R=301]
 
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.yourdomain.com [NC]
+RewriteRule ^(.*)$ https://yourdomain.com/$1 [L,R=301]
+
