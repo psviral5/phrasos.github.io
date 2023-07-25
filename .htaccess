@@ -7,16 +7,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^phrasos.com [NC]
-RewriteRule ^ HTTPS://phrasos.com %{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-RewriteCond %{HTTP:X-Forwarded-Proto} !HTTPS
-RewriteCond %{HTTPS} on
-RewriteRule ^ HTTPS://phrasos.com %{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^phrasos\.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://phrasos.com/$1 [R,L]
