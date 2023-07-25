@@ -11,6 +11,7 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^phrasos.com [NC]
+RewriteRule ^(.*)$ http://www.phrasos.com [NC]
 
-RewriteRule ^(.*)$ http://www.phrasos.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^phrasos.com/$1 [L,R=301]
+
