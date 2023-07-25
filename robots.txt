@@ -7,3 +7,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://phrasos.com/sitemap.xml
+
+User-agent: *
+Disallow:
