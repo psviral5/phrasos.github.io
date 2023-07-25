@@ -1,4 +1,9 @@
-User-Agent: *
-Disallow: 
+User-agent: *
+Allow: /
+
+Sitemap: https://phrasos.com/sitemap.xml
+
+User-agent: *
+Allow: /
 
 Sitemap: https://phrasos.com/sitemap.xml
