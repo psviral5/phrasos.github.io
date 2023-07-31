@@ -596,6 +596,29 @@ body{
   width: 100%;
   background-color: #111;
 
+  /* width: 100%; */
+  /* max-width: 1140px;
+  max-height: 640px; */
+  padding: 2rem 1rem;
+  /* display: flex; */
+  align-items: center;
+  background: rgba(0, 0, 0, 0.501);
+  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.204);
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+
+}
+
+.card__background:hover > .card__heading p{
+
+background: rgba(255, 0, 0, 0.901);
+
+}
+
+.card__heading p :hover > .card__background {
+
+  background: rgba(0, 0, 0, 0.901);
+
 }
 
 .card__category{
@@ -640,7 +663,10 @@ body{
 
 
 
+.block span{
 
+  font-size: 30px;
+}
 
 
 
