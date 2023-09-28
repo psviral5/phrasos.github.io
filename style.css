@@ -29,6 +29,12 @@ body {
       align-items: center;
 }
 
+.photo img {
+  margin-left: 0%;
+  padding: 0%;
+  max-width: 360px;
+}
+
 .maal{
   padding: 15px;
   
