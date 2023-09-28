@@ -35,6 +35,12 @@ body {
   max-width: 360px;
 }
 
+
+.tags{
+font-size: 15px;
+  text-align: center; 
+  margin-top: -15px;
+}
 .maal{
   padding: 15px;
   
