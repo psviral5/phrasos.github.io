@@ -5,8 +5,8 @@ html,body{
   height:100%
 }
 body {
-  background: linear-gradient(to bottom, rgba(0,5,10,0.4) 0%,rgba(0,0,0,0) 100%);
   font-family: 'Droid Serif', serif;
+  background-color: #91bde4;
 }
 
 section {
@@ -20,7 +20,7 @@ section {
   height: 500px;
   position: relative;
   font-family: 'Droid Serif', serif;
-  color:#fff;
+  color:#ffffff;
   top: 20%;
   right: 0;  
   left: 0;
@@ -804,17 +804,29 @@ li{
 
 
 
+h3{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
 
 
 
+h2{
+  text-align: center;
+}
 
+.li{
 
+  text-align: center;
+         
+           
+}
 
-
-
-
-
-
+.maal{
+  text-align: left;
+}
 
 
 
