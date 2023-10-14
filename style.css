@@ -5,7 +5,7 @@ html,body{
   height:100%
 }
 body {
-  font-family: 'Droid Serif', serif;
+ font-family: 'Comfortaa', sans-serif;
   background-color: #d0f8f6;
 }
 
@@ -21,7 +21,7 @@ section {
   width:100%;
   height: 500px;
   position: relative;
-  font-family: 'Droid Serif', serif;
+ font-family: 'Comfortaa', sans-serif;
   color:#ffffff;
   top: 20%;
   right: 0;  
@@ -93,7 +93,7 @@ color:#fff;
   font-size: 1.9em;
   font-weight: 400;
   letter-spacing: 1px;
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Comfortaa', sans-serif;
   margin-bottom: 0;
   display:inline-block;
 }
@@ -314,7 +314,7 @@ h3:after {
 /* ignore this bit :P */
 #profile-badges:after {
     content: "BRO";
-    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-family: 'Comfortaa', sans-serif;
     font-size:13px;
     font-weight: 500;
     text-transform: uppercase;
@@ -341,7 +341,7 @@ h3:after {
   z-index:0
 }
 #profile-links a{
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Comfortaa', sans-serif;
   font-size:1.2em
 }
 
@@ -399,7 +399,7 @@ h3:after {
     font-size: 1.2rem
 }
 .meta .pen-title {
-  font-family: 'Droid Serif', serif;
+ font-family: 'Comfortaa', sans-serif;
   text-align:center
 }
 .pagination-button{
@@ -972,7 +972,7 @@ margin-left: 20em;
 position: relative;
 /* margin-top: 100px;
 margin-left: 55px; */
-font-family: 'League Spartan', sans-serif;
+font-family: 'Comfortaa', sans-serif;
   text-align: center;
 
 
@@ -987,8 +987,7 @@ font-family: 'League Spartan', sans-serif;
  
   font-size: 22px;
 padding-bottom: 2rem;
-
-  font-family: 'League Spartan', sans-serif;
+font-family: 'Comfortaa', sans-serif;
 
 }  
 
